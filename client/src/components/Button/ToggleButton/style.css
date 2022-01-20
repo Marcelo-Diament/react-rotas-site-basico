@@ -1,0 +1,49 @@
+.App .toggle-theme-btn {
+  border-radius: 16px;
+  margin: auto 0 auto 16px;
+  padding: 8px;
+  height: 24px;
+  position: relative;
+  width: 48px;
+}
+
+.App:not(.dark) .toggle-theme-btn {
+  background-color: #00dbf8;
+  border: 2px solid #3e3e3e;
+}
+
+.App.dark .toggle-theme-btn {
+  background-color: #3e3e3e;
+  border: 2px solid #00dbf8;
+}
+
+.App .toggle-theme-btn:focus {
+  outline: none;
+}
+
+.App .toggle-theme-btn:hover {
+  filter: invert(0);
+}
+
+.App .toggle-theme-btn::after {
+  border-radius: 8px;
+  bottom: 50%;
+  content: "";
+  height: 20px;
+  margin: auto 0 auto 16px;
+  position: absolute;
+  top: 50%;
+  transition: all 0.3s ease-in-out;
+  width: 36px;
+  vertical-align: middle;
+}
+
+.App:not(.dark) .toggle-theme-btn::after {
+  background-color: #3e3e3e;
+  left: -16px;
+}
+
+.App.dark .toggle-theme-btn::after {
+  background-color: #00dbf8;
+  left: -6px;
+}
