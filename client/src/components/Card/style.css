@@ -1,0 +1,22 @@
+.card {
+  background-color: #3e3e3e;
+  border-radius: 8px;
+  flex: 1 1 30%;
+  margin: 8px;
+  padding: 16px;
+}
+
+.card__title {
+  color: #00dbf8;
+  font-weight: bold;
+  margin: 0 auto 8px;
+}
+
+.card__description {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  color: #fff;
+  display: -webkit-box;
+  margin: 8px auto 0;
+  overflow: hidden;
+}
