@@ -1,0 +1,40 @@
+.main-banner {
+  align-items: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #00dbf8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 600px;
+  margin: 0 0 16px 0;
+  max-height: 100vh;
+  padding: 16px;
+  width: 100vw;
+}
+
+.main-banner.loading {
+  background-attachment: inherit;
+  background-blend-mode: normal;
+  background-position: 50% 85%;
+  background-size: 240px;
+}
+
+.main-banner__title {
+  color: #fff;
+  font-size: 32px;
+  margin: 8px auto;
+}
+
+.main-banner__btn {
+  background-color: #00dbf8;
+  border: 2px solid #3e3e3e;
+  border-radius: 32px;
+  color: #3e3e3e;
+  font-weight: bold;
+  margin: 16px auto;
+  padding: 8px 16px;
+}
