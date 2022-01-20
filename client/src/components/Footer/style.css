@@ -1,0 +1,25 @@
+.footer {
+  align-items: center;
+  background-color: #3e3e3e;
+  border-radius: 32px 32px 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 32px 0 0;
+  padding: 32px;
+  width: 100vw;
+}
+
+.footer__title {
+  color: #00dbf8;
+  flex: 1 0 100%;
+  margin: 16px auto;
+  text-align: center;
+}
+
+.footer__description {
+  color: #00dbf8;
+  flex: 1 0 100%;
+  margin: 16px auto;
+  text-align: center;
+}
